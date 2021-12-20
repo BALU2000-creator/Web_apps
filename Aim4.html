@@ -1,0 +1,53 @@
+<html>
+	<head>
+	<title>Student Details</title>
+	<style>
+		body{
+			background-image:url(https://www.bollywoodhungama.com/wp-content/uploads/2021/12/Movie-Review-Pushpa-The-Rise-Part-1.jpg);
+			background-repeat:no-repeat;
+			background-size:100%;
+		}
+		form{
+			padding:50px 50px;
+		}
+		
+	</style>
+	</head>
+	<body>
+		<h1 style="color:green">Student Details</h1>
+		<form action="Success.html" autocomplete=="on" method="post">
+		<fieldset>
+			<legend>Personal</legend>
+			<label for="name">Name:</label><br>
+			<input type="text" id="name" name="name"><br>
+			<label for="fathername">FatherName:</label><br>
+			<input type="text" id="fathername" name="fathername"><br>
+			<label for="date">Date:</label><br>
+			<input type="date" id="date" name="date"><br>
+			<label for="address">Address:</label><br>
+			<textarea id="address" name="address"></textarea><br>
+			<label for="email">Email:</label><br>
+			<input type="email" id="email" name="email"><br>
+		</fieldset>
+		<fieldset>
+			<legend>Education</legend>
+			<fieldset>
+				<legend>SSC</legend>
+				<label for="schoolname">SchoolName:</label><br>
+				<input type="text" id="schoolname" name="schoolname"><br>
+				<label for="smarks">School Marks:</label><br>
+				<input type="number" id="smarks" name="smarks"><br>
+			</fieldset>
+			<input type="radio" id="inter" name="fav_language" value="inter">
+			<label for="inter">Intermediate</label><br>
+			<input type="radio" id="diploma" name="fav_language" value="diploma">
+			<label for="diploma">Diploma</label><br>
+			<label for="imarks">Percentage</label><br>
+			<input type="number" id="percentage" name="percentage" min="35 ma"100"><br>
+		</fieldset>
+		<input type="Submit" value="Submit">
+		<input type="submit" value="Cancel">
+			
+	</body>
+</html>
+
